@@ -1,0 +1,83 @@
+public class Gym {
+     static String name;
+     static String location;
+     static int totalMachines;
+     static boolean hasPool;
+     static double price;
+     static String membershipType;
+     static int trainers;
+     static boolean open24x7;
+     static String openingTime;
+     static String closingTime;
+     static boolean hasSauna;
+     static boolean hasYoga;
+     static int maxCapacity;
+     static double areaSqFt;
+     static boolean freeParking;
+     static String contactNumber;
+     static String email;
+     static int establishedYear;
+     static String ownerName;
+
+    public static void main(String[] args) {
+        System.out.println("name = " + name);
+        System.out.println("location = " + location);
+        System.out.println("totalMachines = " + totalMachines);
+        System.out.println("hasPool = " + hasPool);
+        System.out.println("monthlyFee = " + price);
+        System.out.println("membershipType = " + membershipType);
+        System.out.println("trainers = " + trainers);
+        System.out.println("open24x7 = " + open24x7);
+        System.out.println("openingTime = " + openingTime);
+        System.out.println("closingTime = " + closingTime);
+        System.out.println("hasSauna = " + hasSauna);
+        System.out.println("hasYoga = " + hasYoga);
+        System.out.println("maxCapacity = " + maxCapacity);
+        System.out.println("areaSqFt = " + areaSqFt);
+        System.out.println("freeParking = " + freeParking);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("email = " + email);
+        System.out.println("establishedYear = " + establishedYear);
+        System.out.println("ownerName = " + ownerName);
+       name = "Lifelong Gym";
+       location = "Downtown Plaza";
+      totalMachines = 30;
+      hasPool = true;
+      price = 49.99;
+      membershipType = "Premium";
+      trainers = 5;
+      open24x7 = false;
+      openingTime = "06:00 AM";
+      closingTime = "10:00 PM";
+      hasSauna = true;
+      hasYoga = true;
+      maxCapacity = 200;
+      areaSqFt = 4000;
+      freeParking = true;
+      contactNumber = "555-1234";
+      email = "contact@fitlife.com";
+      establishedYear = 2010;
+      ownerName = "Ravi";
+        System.out.println("name = " + name);
+        System.out.println("location = " + location);
+        System.out.println("totalMachines = " + totalMachines);
+        System.out.println("hasPool = " + hasPool);
+        System.out.println("monthlyFee = " + price);
+        System.out.println("membershipType = " + membershipType);
+        System.out.println("trainers = " + trainers);
+        System.out.println("open24x7 = " + open24x7);
+        System.out.println("openingTime = " + openingTime);
+        System.out.println("closingTime = " + closingTime);
+        System.out.println("hasSauna = " + hasSauna);
+        System.out.println("hasYoga = " + hasYoga);
+        System.out.println("maxCapacity = " + maxCapacity);
+        System.out.println("areaSqFt = " + areaSqFt);
+        System.out.println("freeParking = " + freeParking);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("email = " + email);
+        System.out.println("establishedYear = " + establishedYear);
+        System.out.println("ownerName = " + ownerName);
+
+
+    }
+}

@@ -1,0 +1,83 @@
+public class PoliceStation {
+     static String name;
+     static String address;
+     static int stationCode;
+     static String commissioner;
+     static int totalOfficers;
+     static boolean hasArmsDept;
+     static boolean hasTrafficUnit;
+     static boolean hasCyberCell;
+     static int totalCells;
+     static boolean hasWatchTower;
+     static String jurisdiction;
+     static double landAreaSqFt;
+     static boolean open24x7;
+     static String contactNumber;
+     static int holdingCapacity;
+     static boolean hasCCTV;
+     static String established;
+     static boolean hasLab;
+     static String email;
+
+    public static void main(String[] args) {
+        System.out.println("name = " + name);
+        System.out.println("address = " + address);
+        System.out.println("stationCode = " + stationCode);
+        System.out.println("commissioner = " + commissioner);
+        System.out.println("totalOfficers = " + totalOfficers);
+        System.out.println("hasArmsDept = " + hasArmsDept);
+        System.out.println("hasTrafficUnit = " + hasTrafficUnit);
+        System.out.println("hasCyberCell = " + hasCyberCell);
+        System.out.println("totalCells = " + totalCells);
+        System.out.println("hasWatchTower = " + hasWatchTower);
+        System.out.println("jurisdiction = " + jurisdiction);
+        System.out.println("landAreaSqFt = " + landAreaSqFt);
+        System.out.println("open24x7 = " + open24x7);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("holdingCapacity = " + holdingCapacity);
+        System.out.println("hasCCTV = " + hasCCTV);
+        System.out.println("established = " + established);
+        System.out.println("hasLab = " + hasLab);
+        System.out.println("email = " + email);
+     name = "Central Police Station";
+     address = "45 Justice Rd.";
+     stationCode = 101;
+     commissioner = "Inspector Mahesh";
+     totalOfficers = 120;
+     hasArmsDept = true;
+     hasTrafficUnit = true;
+     hasCyberCell = false;
+     totalCells = 10;
+     hasWatchTower = true;
+     jurisdiction = "City Center";
+     landAreaSqFt = 5000.0;
+     open24x7 = true;
+     contactNumber = "100";
+     holdingCapacity = 50;
+     hasCCTV = true;
+     established = "1970-05-12";
+     hasLab = true;
+     email = "info@cps.gov";
+        System.out.println("name = " + name);
+        System.out.println("address = " + address);
+        System.out.println("stationCode = " + stationCode);
+        System.out.println("commissioner = " + commissioner);
+        System.out.println("totalOfficers = " + totalOfficers);
+        System.out.println("hasArmsDept = " + hasArmsDept);
+        System.out.println("hasTrafficUnit = " + hasTrafficUnit);
+        System.out.println("hasCyberCell = " + hasCyberCell);
+        System.out.println("totalCells = " + totalCells);
+        System.out.println("hasWatchTower = " + hasWatchTower);
+        System.out.println("jurisdiction = " + jurisdiction);
+        System.out.println("landAreaSqFt = " + landAreaSqFt);
+        System.out.println("open24x7 = " + open24x7);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("holdingCapacity = " + holdingCapacity);
+        System.out.println("hasCCTV = " + hasCCTV);
+        System.out.println("established = " + established);
+        System.out.println("hasLab = " + hasLab);
+        System.out.println("email = " + email);
+
+
+    }
+}

@@ -1,0 +1,83 @@
+public class Court {
+    static String name;
+     static String courtType;
+     static int numberOfJudges;
+     static String location;
+     static boolean isOpen;
+     static String workingHours;
+     static int staffCount;
+     static boolean hasJury;
+     static int hearingRooms;
+     static String chiefJudge;
+     static boolean hasCafeteria;
+     static boolean hasParking;
+     static double areaSqFt;
+     static String contactNumber;
+     static String email;
+     static int establishedYear;
+     static int caseLoadPerYear;
+     static boolean hasLibrary;
+     static String website;
+
+    public static void main(String[] args) {
+        System.out.println("name = " + name);
+        System.out.println("courtType = " + courtType);
+        System.out.println("numberOfJudges = " + numberOfJudges);
+        System.out.println("location = " + location);
+        System.out.println("isOpen = " + isOpen);
+        System.out.println("workingHours = " + workingHours);
+        System.out.println("staffCount = " + staffCount);
+        System.out.println("hasJury = " + hasJury);
+        System.out.println("hearingRooms = " + hearingRooms);
+        System.out.println("chiefJudge = " + chiefJudge);
+        System.out.println("hasCafeteria = " + hasCafeteria);
+        System.out.println("hasParking = " + hasParking);
+        System.out.println("areaSqFt = " + areaSqFt);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("email = " + email);
+        System.out.println("establishedYear = " + establishedYear);
+        System.out.println("caseLoadPerYear = " + caseLoadPerYear);
+        System.out.println("hasLibrary = " + hasLibrary);
+        System.out.println("website = " + website);
+   name="Central Court";
+      courtType = "Civil";
+      numberOfJudges = 10;
+     location = "Downtown";
+     isOpen = true;
+      workingHours = "09:00–17:00";
+      staffCount = 50;
+      hasJury = false;
+     hearingRooms = 12;
+      chiefJudge = "hari";
+      hasCafeteria = true;
+      hasParking = true;
+      areaSqFt = 20000;
+    contactNumber = "555-9012";
+      email = "court@state.gov";
+      establishedYear = 1950;
+     caseLoadPerYear = 5000;
+    hasLibrary = true;
+     website = "www.court.gov";
+ System.out.println("name = " + name);
+        System.out.println("courtType = " + courtType);
+        System.out.println("numberOfJudges = " + numberOfJudges);
+        System.out.println("location = " + location);
+        System.out.println("isOpen = " + isOpen);
+        System.out.println("workingHours = " + workingHours);
+        System.out.println("staffCount = " + staffCount);
+        System.out.println("hasJury = " + hasJury);
+        System.out.println("hearingRooms = " + hearingRooms);
+        System.out.println("chiefJudge = " + chiefJudge);
+        System.out.println("hasCafeteria = " + hasCafeteria);
+        System.out.println("hasParking = " + hasParking);
+        System.out.println("areaSqFt = " + areaSqFt);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("email = " + email);
+        System.out.println("establishedYear = " + establishedYear);
+        System.out.println("caseLoadPerYear = " + caseLoadPerYear);
+        System.out.println("hasLibrary = " + hasLibrary);
+        System.out.println("website = " + website);
+
+
+    }
+}

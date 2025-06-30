@@ -1,0 +1,87 @@
+public class Projector {
+     static String brand;
+     static String model;
+     static int lumens;
+     static String resolution;
+     static double contrastRatio;
+     static boolean hasHDMI;
+     static boolean hasUSB;
+     static String lampType;
+     static int lampHours;
+     static double weight;
+     static String powerConsumption;
+     static boolean is3D;
+     static String warranty;
+     static boolean hasKeystone;
+     static String throwRatio;
+     static double price;
+     static String color;
+     static int fanNoiseDb;
+     static boolean hasWifi;
+     static String supportedOS;
+
+    public static void main(String[] args) {
+        System.out.println("brand = " + brand);
+        System.out.println("model = " + model);
+        System.out.println("lumens = " + lumens);
+        System.out.println("resolution = " + resolution);
+        System.out.println("contrastRatio = " + contrastRatio);
+        System.out.println("hasHDMI = " + hasHDMI);
+        System.out.println("hasUSB = " + hasUSB);
+        System.out.println("lampType = " + lampType);
+        System.out.println("lampHours = " + lampHours);
+        System.out.println("weight = " + weight);
+        System.out.println("powerConsumption = " + powerConsumption);
+        System.out.println("is3D = " + is3D);
+        System.out.println("warranty = " + warranty);
+        System.out.println("hasKeystone = " + hasKeystone);
+        System.out.println("throwRatio = " + throwRatio);
+        System.out.println("price = " + price);
+        System.out.println("color = " + color);
+        System.out.println("fanNoiseDb = " + fanNoiseDb);
+        System.out.println("hasWifi = " + hasWifi);
+        System.out.println("supportedOS = " + supportedOS);
+      brand = "ViewTech";
+      model = "VT-200";
+      lumens = 3000;
+      resolution = "1920x1080";
+      contrastRatio = 10000.0;
+      hasHDMI = true;
+      hasUSB = false;
+      lampType = "LED";
+      lampHours = 20000;
+      weight = 2.8;
+      powerConsumption = "150W";
+      is3D = false;
+      warranty = "2 years";
+      hasKeystone = true;
+      throwRatio = "1.5:1";
+      price = 499.99;
+      color = "Black";
+      fanNoiseDb = 28;
+      hasWifi = true;
+      supportedOS = "Windows/Mac/Linux";
+        System.out.println("brand = " + brand);
+        System.out.println("model = " + model);
+        System.out.println("lumens = " + lumens);
+        System.out.println("resolution = " + resolution);
+        System.out.println("contrastRatio = " + contrastRatio);
+        System.out.println("hasHDMI = " + hasHDMI);
+        System.out.println("hasUSB = " + hasUSB);
+        System.out.println("lampType = " + lampType);
+        System.out.println("lampHours = " + lampHours);
+        System.out.println("weight = " + weight);
+        System.out.println("powerConsumption = " + powerConsumption);
+        System.out.println("is3D = " + is3D);
+        System.out.println("warranty = " + warranty);
+        System.out.println("hasKeystone = " + hasKeystone);
+        System.out.println("throwRatio = " + throwRatio);
+        System.out.println("price = " + price);
+        System.out.println("color = " + color);
+        System.out.println("fanNoiseDb = " + fanNoiseDb);
+        System.out.println("hasWifi = " + hasWifi);
+        System.out.println("supportedOS = " + supportedOS);
+
+
+    }
+}

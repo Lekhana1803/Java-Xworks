@@ -1,0 +1,83 @@
+public class Temple {
+     static String name;
+     static String location;
+     static int builtYear;
+     static String deity;
+     static double areaSqFt;
+     static boolean hasPriest;
+     static int dailyVisitors;
+     static boolean isOpenAllDays;
+     static String openingTime;
+     static String closingTime;
+     static boolean hasParking;
+     static boolean hasAccommodation;
+     static String website;
+     static String email;
+     static String contactNumber;
+     static String management;
+     static String architectureStyle;
+     static boolean hasGarden;
+     static int numberOfPriests;
+
+    public static void main(String[] args) {
+        System.out.println("name = " + name);
+        System.out.println("location = " + location);
+        System.out.println("builtYear = " + builtYear);
+        System.out.println("deity = " + deity);
+        System.out.println("areaSqFt = " + areaSqFt);
+        System.out.println("hasPriest = " + hasPriest);
+        System.out.println("dailyVisitors = " + dailyVisitors);
+        System.out.println("isOpenAllDays = " + isOpenAllDays);
+        System.out.println("openingTime = " + openingTime);
+        System.out.println("closingTime = " + closingTime);
+        System.out.println("hasParking = " + hasParking);
+        System.out.println("hasAccommodation = " + hasAccommodation);
+        System.out.println("website = " + website);
+        System.out.println("email = " + email);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("management = " + management);
+        System.out.println("architectureStyle = " + architectureStyle);
+        System.out.println("hasGarden = " + hasGarden);
+        System.out.println("numberOfPriests = " + numberOfPriests);
+      name = "Hindu Temple";
+      location = "Hilltop";
+      builtYear = 1800;
+      deity = "Divine Spirit";
+      areaSqFt = 5000;
+      hasPriest = true;
+      dailyVisitors = 300;
+      isOpenAllDays = true;
+      openingTime = "05:00 AM";
+      closingTime = "10:00 PM";
+      hasParking = true;
+      hasAccommodation = false;
+      website = "www.sacredtemple.org";
+      email = "info@sacredtemple.org";
+      contactNumber = "555-2345";
+      management = "Temple Trust";
+      architectureStyle = "Ancient";
+      hasGarden = true;
+      numberOfPriests = 3;
+        System.out.println("name = " + name);
+        System.out.println("location = " + location);
+        System.out.println("builtYear = " + builtYear);
+        System.out.println("deity = " + deity);
+        System.out.println("areaSqFt = " + areaSqFt);
+        System.out.println("hasPriest = " + hasPriest);
+        System.out.println("dailyVisitors = " + dailyVisitors);
+        System.out.println("isOpenAllDays = " + isOpenAllDays);
+        System.out.println("openingTime = " + openingTime);
+        System.out.println("closingTime = " + closingTime);
+        System.out.println("hasParking = " + hasParking);
+        System.out.println("hasAccommodation = " + hasAccommodation);
+        System.out.println("website = " + website);
+        System.out.println("email = " + email);
+        System.out.println("contactNumber = " + contactNumber);
+        System.out.println("management = " + management);
+        System.out.println("architectureStyle = " + architectureStyle);
+        System.out.println("hasGarden = " + hasGarden);
+        System.out.println("numberOfPriests = " + numberOfPriests);
+
+
+    }
+}
